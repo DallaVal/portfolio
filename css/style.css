@@ -409,6 +409,45 @@ header{
     margin: 30px;
 }
 
+
+.container-empty6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle-certificados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.row-certificados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-certificados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.img-certificados img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: solid 1px #fff;
+}
+
+
+
 footer{
     height: 60px;
     width: 100%;
@@ -423,6 +462,8 @@ footer{
 footer .footer-green{
     color: #00DF5E;    
 }
+
+
 
 
 @media (max-width: 980px) {
