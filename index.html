@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfólio</title>
+    <link rel="shortcut icon" href="./img/smile.svg" type="image/x-icon">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="portfolio">
+                Portfólio
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#sobre-mim">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="#projeto">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#servico">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Minhas skills</a>
+                    </li>
+                    <li>
+                        <a href="#certificados">Certificados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-empty1">
+        <div class="section-empty1">
+            <div class="information">
+                <div class="name">
+                   <h1>Olá, eu sou o <br> Matheus Gabriel <b>Dalla Valle</b> :)</h1>
+                </div>
+                <div class="profission">
+                    Desenvolvedor Front-End
+                </div>
+                <div class="buttons">
+                    <a id="buttom-bggreen" class="buttom-bggreen" href="#" onclick="buttomclicar()" onmouseenter="buttomentrar()" onmouseout="buttomsair()">Download CV</a>
+                    <a id="buttom-bgblack" class="buttom-bgblack" href="#" onclick="buttomclicar2()" onmouseenter="buttomentrar2()" onmouseout="buttomsair2()">Entrar em contato</a>
+                </div>
+                
+            </div>
+            <div class="image">
+                <img src="./img/img_header.svg" alt="image-header">
+            </div>
+        </div>
+    </main>
+
+    <main id="sobre-mim" class="container-empty2">
+        <div class="section-empty2">
+            <div class="sobremim">
+                <div class="tittle-sobremim">
+                    <h1>Sobre mim</h1>
+                </div>
+                <div class="text-sobremim">
+                    <p>Meu nome é Matheus Gabriel Dalla Valle tenho 18 anos e Sou um Desenvolvedor de Landing pages que trabalha usando HTMl5, CSS3 e JavaScript Puro para melhor otimização do seu site e melhor rankeamento nas buscas, tudo por um valor bem acessivel!</p>
+                </div>
+            </div>
+            <div class="contatos">
+                <a class="myname" href="">
+                    <div class="img-contatos">
+                        <img src="./img/smile.svg" alt="emoji de rosto">
+                    </div>
+                    <h3>Meu Nome</h3>
+                    <p>Matheus Gabriel</p>
+                </a>
+                <a class="email" target="_blank" href="mailto:matheusgabrieldalla@gmail.com?subject=criação de sites">
+                    <div class="img-contatos">
+                        <img src="./img/email.svg" alt="email">
+                    </div>
+                    <h3>E-mail</h3>
+                    <p>matheusgabrieldallavalle1@gmail.com</p>
+                </a>
+                <a class="instagram" target="_blank" href="https://www.instagram.com/dallavalle.dev/">
+                    <div class="img-contatos">
+                        <img src="./img/instagram.svg" alt="instagram">
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>@dallavalle.dev</p>
+                </a>
+                <a class="phone" target="_blank" href="https://wa.me/5544991287615">
+                    <div class="img-contatos">
+                        <img src="./img/phone.svg" alt="telefone">
+                    </div>
+                    <h3>Telefone</h3>
+                    <p>(44) 99128-7615</p>
+                </a>
+            </div>
+        </div>
+    
+    </main>
+
+    <main id="projeto" class="container-empty3">
+        <div class="section-empty3">
+            <div class="tittle-projetos">
+                <h1>Projetos</h1>
+            </div>
+            <div class="row">
+                <div id="projeto1" class="project" >
+                    <a target="_blank" href="https://dallaval.github.io/La-Pizza/" >
+                        <div class="img-projeto">
+                            <p>LA P<h class="iyellow">I</h><h class="zred">Z</h><h class="zgreen">Z</h>A</p>
+                        </div>
+                        <h2 id="tituloprojeto1" >La Pizza</h2>
+                        <p class="text-project">Tecnologias: HTML, CSS e JS.</p>
+                    </a>
+                </div>
+                <div id="projeto2" class="project" >
+                    <a target="_blank" href="https://dallaval.github.io/DesignDeInteriores/">
+                        <div class="img-projeto">
+                            <img class="HomeYou" src="./img/HOMEYOU.png" alt="HomeYou">
+                        </div>
+                        <h2>HomeYou</h2>
+                        <p class="text-project">Tecnologias: HTML e CSS</p>
+                    </a>
+                </div>
+                <div id="projeto3" class="project" >
+                    <a target="_blank" href="https://fatechmendes.com.br/">
+                        <div class="img-projeto">
+                            <img class="FATECH" src="./img/fatech.png" alt="">
+                        </div>
+                        <h2>FATECH</h2>
+                        <p class="text-project">Tecnologias: HTML e CSS.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="row2">
+                <div id="projeto-4"  class="project">
+                    <a href="#">
+                        <div  id="img-emconstrucao" class="img-projeto img-embreve">
+                            <img onmouseenter="entrar()" onmouseout="sair()" id="imagem-emconstrucao" src="./img/imagem-projetoemandamento.jpeg" alt="">
+                        </div>
+                        <h2 id="h2-emconstrucao">Em Breve</h2>
+                        <p class="text-project">Em Breve</p>
+                    </a>
+                </div>
+                <div id="projeto-5" class="project">
+                    <a href="#">
+                        <div id="img-emconstrucao2" class="img-projeto img-embreve">
+                            <img onmouseenter="entrar2()" onmouseout="sair2()" id="imagem-emconstrucao2" src="./img/imagem-projetoemandamento.jpeg" alt="">
+                        </div>
+                        <h2 id="h2-emconstrucao2">Em Breve</h2>
+                        <p class="text-project">Em Breve</p>
+                    </a>
+                </div>
+                <div id="projeto-6" class="project">
+                    <a href="#">
+                        <div id="img-emconstrucao3" class="img-projeto img-embreve">
+                            <img onmouseenter="entrar3()" onmouseout="sair3()" id="imagem-emconstrucao3" src="./img/imagem-projetoemandamento.jpeg" alt="">
+                        </div>
+                        <h2 id="h2-emconstrucao3">Em Breve</h2>
+                        <p class="text-project">Em Breve</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main id="servico" class="container-empty4">
+        <div class="section-empty4">
+            <div class="tittle-servicos">
+                <h1>Serviços</h1>
+            </div>
+            <div class="row-servicos">
+                <div class="servico">
+                    <div class="conteudo-servico">
+                        <div class="img-servicos">
+                            <img src="./img/code.svg" alt="">
+                        </div>
+                        <h1>Criação <br>de sites</h1>
+                    </div>
+                </div>
+                <div class="servico">
+                    <div class="conteudo-servico">
+                        <div class="img-servicos">
+                            <img src="./img/smartphone.svg" alt="">
+                        </div>
+                        <h1>Sites <br>responsivos</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main id="skills" class="container-empty5">
+        <div class="section-empty5">
+            <div class="tittle-skills">
+                <h1>Minhas skills</h1>
+            </div>
+            <div class="row-skills">
+                <div class="img-skills">
+                    <img src="./img/icon-html.svg" alt="">
+                </div>
+                <div class="img-skills">
+                    <img src="./img/icon-css3.svg" alt="">
+                </div>
+                <div class="img-skills">
+                    <img src="./img/icon-javascript.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main id="certificados" class="container-empty6">
+        <div class="section-empty6">
+            <div class="tittle-certificados">
+                <h1>Certificados</h1>
+            </div>
+            <div class="row-certificados">
+                <div class="img-certificados">
+                    <img src="./img/certificados/github.png" alt="github certificado alura">
+                </div>
+                <div class="img-certificados">
+                    <img src="./img/certificados/html-1.png" alt="html5 e css3 certificado alura">
+                </div>
+                <div class="img-certificados">
+                    <img src="./img/certificados/html-2.png" alt="html5 e css3 certificado alura">
+                </div>
+            </div>
+            <div class="row-certificados">
+                <div class="img-certificados">
+                    <img src="./img/certificados/html-3.png" alt="html5 e css3 certificado alura">
+                </div>
+                <div class="img-certificados">
+                    <img src="./img/certificados/html-4.png" alt="html5 e css3 certificado alura">
+                </div>
+                <div class="img-certificados">
+                    <img src="./img/certificados/html-5.png" alt="html5 e css3 certificado alura">
+                </div>
+            </div>
+        </div>
+        <div class="row-certificados">
+            <div class="img-certificados">
+                <img src="./img/certificados/js-1.png" alt="JavaScript certificado alura">
+            </div>
+            <div class="img-certificados">
+                <img src="./img/certificados/js-2.png" alt="JavaScript certificado alura">
+            </div>
+            <div class="img-certificados">
+                <img src="./img/certificados/js-3.png" alt="JavaScript certificado alura">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Orgulhosamente feito por <h class="footer-green">Matheus Gabriel Dalla Valle</h></p>
+    </footer>
+
+
+    
+
+</body>
+</html>
